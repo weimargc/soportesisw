@@ -1,0 +1,93 @@
+html {
+  font-size: 15px;
+}
+
+/* Estilo Bloque Bienvenidos*/
+.bienvenidos {
+  background: url(/images/fondo-bienvenidos.jpg);
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.fixed-top {
+  background: rgba(0, 0, 0, 0.69);
+}
+
+.navbar-light .navbar-brand {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.navbar-toggler {
+  font-size: 2rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fffbfb;
+  text-align: center;
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+  color: white;
+  background: #ff78009c;
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+  color: rgba(119, 212, 111, 0.91);
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.59);
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#menu-ppal {
+  /*No permite flotar ambos lados el elemento*/
+  clear: both;
+}
+
+.texto-bienvenida {
+  color: white;
+  margin-top: 6rem;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #d95f0059;
+  border-color: #cc8f00;
+  transition: all 3s ease;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #ff9300bf;
+  border-color: #ffbe0080;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #cccb0091;
+  border-color: #a9bf00;
+  transition: all 3s ease;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 142, 0, 0.5);
+  transition: all 3s ease;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(12, 255, 0, 0.5);
+  transition: all 3s ease;
+}
+
+/*# sourceMappingURL=estilos.css.map */
